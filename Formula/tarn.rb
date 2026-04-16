@@ -1,26 +1,26 @@
 class Tarn < Formula
   desc "CLI-first API testing tool"
   homepage "https://github.com/NazarKalytiuk/hive"
-  version "0.6.2"
+  version "0.7.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/NazarKalytiuk/hive/releases/download/v0.6.2/hive-darwin-arm64.tar.gz"
-      sha256 "22b05078e006c744af274d2ca8c5a2db5208e3bbd1476e52a7783743d6ba5fca"
+      url "https://github.com/NazarKalytiuk/hive/releases/download/v0.7.0/hive-darwin-arm64.tar.gz"
+      sha256 "277d504828cb1f0b8145fef35254a17b8ac6bc007fd5bc09c5e91c128cd3c9ca"
     else
-      url "https://github.com/NazarKalytiuk/hive/releases/download/v0.6.2/hive-darwin-amd64.tar.gz"
-      sha256 "539090e16b39be1ea6ea14f4db19df8b7a87dfe85192caf08eb78fa946726b7e"
+      url "https://github.com/NazarKalytiuk/hive/releases/download/v0.7.0/hive-darwin-amd64.tar.gz"
+      sha256 "d10397cd2db3d4af8263b212a276b551d668ec5e45c073951eeddcd3f3573b68"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/NazarKalytiuk/hive/releases/download/v0.6.2/hive-linux-arm64.tar.gz"
-      sha256 "96d553b420f8ad7830e436abf365a816bd52acaa4422e3eb1052d460d676c8ed"
+      url "https://github.com/NazarKalytiuk/hive/releases/download/v0.7.0/hive-linux-arm64.tar.gz"
+      sha256 "f7c1c38da40cf91146f4586265de45977f8f3aee06af9ddd0d451cf041932911"
     else
-      url "https://github.com/NazarKalytiuk/hive/releases/download/v0.6.2/hive-linux-amd64.tar.gz"
-      sha256 "4f25fbe346be00be8e3dc41097ab3aa1133bd6c91a95777f8349b499fe0512ec"
+      url "https://github.com/NazarKalytiuk/hive/releases/download/v0.7.0/hive-linux-amd64.tar.gz"
+      sha256 "a8e7d77fad6c870241233c34f805914f6536220cdced4dbddf91d0579a0009bc"
     end
   end
 

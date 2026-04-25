@@ -1,26 +1,26 @@
 class Tarn < Formula
   desc "CLI-first API testing tool"
   homepage "https://github.com/NazarKalytiuk/tarn"
-  version "0.11.6"
+  version "0.11.7"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/NazarKalytiuk/tarn/releases/download/v0.11.6/tarn-darwin-arm64.tar.gz"
-      sha256 "36d1ad6cc3bea07e1bf61a04d2d7d2b166d8dff0444810f6395772dfef4ec768"
+      url "https://github.com/NazarKalytiuk/tarn/releases/download/v0.11.7/tarn-darwin-arm64.tar.gz"
+      sha256 "74e505add6de977e7fc5748b221fb9a22cf9c387352547d11e70556871e16e63"
     else
-      url "https://github.com/NazarKalytiuk/tarn/releases/download/v0.11.6/tarn-darwin-amd64.tar.gz"
-      sha256 "a094caed030f9cb7e6d4967ed0a076e855d1ab0418f85772da804c990cbfa759"
+      url "https://github.com/NazarKalytiuk/tarn/releases/download/v0.11.7/tarn-darwin-amd64.tar.gz"
+      sha256 "2631d76fc802f91ae3279ca56dc9435c9ee0d3ce596242e3792cc18eec01064e"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/NazarKalytiuk/tarn/releases/download/v0.11.6/tarn-linux-arm64.tar.gz"
-      sha256 "a4f1d97b16012c77ce70ac7fed813de132a71e47e231e7cfe8dae0bd7a17188e"
+      url "https://github.com/NazarKalytiuk/tarn/releases/download/v0.11.7/tarn-linux-arm64.tar.gz"
+      sha256 "c7f8b0d8d5b1642296cac99cb36fb22ed640820446e41da993ccbafd37781b9c"
     else
-      url "https://github.com/NazarKalytiuk/tarn/releases/download/v0.11.6/tarn-linux-amd64.tar.gz"
-      sha256 "1dfe4b7eb088274a1abb7bf87ab0199be6a9c2f4e0a659ce68c04cdc16c67104"
+      url "https://github.com/NazarKalytiuk/tarn/releases/download/v0.11.7/tarn-linux-amd64.tar.gz"
+      sha256 "b4a58efe79c56c8462307913324caa51c3e32e33f57eedf4650e6299db5f6a35"
     end
   end
 
